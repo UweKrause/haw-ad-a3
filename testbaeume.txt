@@ -1,0 +1,16 @@
+Y = {111,{55,{22,{11,{},{17,{},{},1},2},{},3},{88, {}, {},1},4},{155,{122,{},{},1},{},2},5}.
+
+
+X = avltree:initBT().
+A = avltree:insertBT(X, 50).
+B = avltree:insertBT(A, 25).
+C = avltree:insertBT(B, 75).
+D = avltree:insertBT(C, 100).
+
+E = avltree:insertBT(D, 30).
+
+
+
+X = avltree:initBT().
+A = avltree:insertBT(X, 50).
+A2 = avltree:insertBT(X, 50).
